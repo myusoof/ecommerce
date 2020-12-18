@@ -9,5 +9,6 @@ import org.springframework.stereotype.Component
 data class ApplicationConfig(
     var url: String = "",
     var version: String = "",
-    var username: String = ""
+    var username: String = "",
+    val tableName: List<String>
 )

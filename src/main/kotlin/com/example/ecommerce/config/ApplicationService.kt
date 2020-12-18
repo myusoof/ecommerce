@@ -10,6 +10,7 @@ class ApplicationService(val applicationConfig: ApplicationConfig) {
     @PostConstruct
     fun testing(){
         println("${applicationConfig.url} ${applicationConfig.username} ${applicationConfig.version}")
+        applicationConfig.tableName.forEach{println(it)}
     }
 
 }

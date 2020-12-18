@@ -1,4 +1,8 @@
+---
 application:
-  url: http://localhost:8080
-  version: "0.1-SNAPSHOT"
+  table-name:
+    - firsttable
+    - secondtable
+  url: "http://localhost:8080"
   username: yusoof
+  version: 0.1-SNAPSHOT
