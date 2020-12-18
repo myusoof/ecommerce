@@ -10,5 +10,6 @@ data class ApplicationConfig(
     var url: String = "",
     var version: String = "",
     var username: String = "",
-    val tableName: List<String>
+    val tableName: List<String>,
+    val mapExample: Map<String, String>
 )

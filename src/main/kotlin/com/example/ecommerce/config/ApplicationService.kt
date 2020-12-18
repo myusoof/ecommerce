@@ -11,6 +11,7 @@ class ApplicationService(val applicationConfig: ApplicationConfig) {
     fun testing(){
         println("${applicationConfig.url} ${applicationConfig.username} ${applicationConfig.version}")
         applicationConfig.tableName.forEach{println(it)}
+        applicationConfig.mapExample.forEach{k ,v -> println("$k: $v")}
     }
 
 }

@@ -6,3 +6,7 @@ application:
   url: "http://localhost:8080"
   username: yusoof
   version: 0.1-SNAPSHOT
+  map-example:
+    testing: testing
+    testing1: testing1
+    testing2: testing2
