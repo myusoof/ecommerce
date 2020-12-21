@@ -11,7 +11,7 @@ class AnnotationBaseConstructor
 
 fun main(args: Array<String>) {
     runApplication<AnnotationBaseConstructor>(*args)
-    val applicationContext = ClassPathXmlApplicationContext("annotationBasedConstructor.xml")
+    val applicationContext = ClassPathXmlApplicationContext("autowiredfile.xml")
     val dependentService = applicationContext.getBean("dependentService") as DependentService
     dependentService.doSomethingInBulk()
 }

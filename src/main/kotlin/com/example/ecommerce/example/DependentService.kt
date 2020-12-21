@@ -1,9 +1,10 @@
 package com.example.ecommerce.example
 
+import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 
 @Service
-class DependentService(val serviceOne: ServiceOne, val serviceTwo: ServiceTwo) {
+class DependentService(@Autowired val serviceOne: ServiceOne, @Autowired val serviceTwo: ServiceTwo) {
 
     fun doSomethingInBulk() {
         serviceOne.doSomething()
