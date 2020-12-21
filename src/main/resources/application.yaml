@@ -10,3 +10,8 @@ application:
     testing: testing
     testing1: testing1
     testing2: testing2
+  enum-table:
+    customer:
+      name: customertable
+    order:
+      name: ordertable
